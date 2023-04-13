@@ -1,0 +1,19 @@
+- route:
+    id: TimerTest
+    from:
+      uri: timer:Timer
+      id: from-ee9b
+      steps:
+        - setBody:
+            id: setBody-77dd
+            expression:
+              simple:
+                expression: '{"Vojta": "HELLOW"}'
+                id: simple-5275
+                resultType: JSON
+        - to:
+            uri: log:Test
+            id: to-0317
+            parameters:
+              showAll: true
+              showBody: true
