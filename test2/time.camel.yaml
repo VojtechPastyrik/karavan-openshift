@@ -1,0 +1,9 @@
+- route:
+    id: route-abcb
+    from:
+      uri: timer:tester
+      id: from-64ee
+      steps:
+        - log:
+            message: Hellow
+            id: log-1f79
