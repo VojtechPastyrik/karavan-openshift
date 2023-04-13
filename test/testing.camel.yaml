@@ -10,7 +10,7 @@
               simple:
                 expression: '{"Vojta": "HELLOW"}'
                 id: simple-5275
-                resultType: JSON
+                resultType: String.class
         - to:
             uri: log:Test
             id: to-0317
